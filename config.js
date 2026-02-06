@@ -43,7 +43,7 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW you love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "Almost there! 💝",              // Shows when they go past 1000%
+        high: "Keep it going hoe ➡",              // Shows when they go past 1000%
         normal: "Not good enough 😤"                           // Shows when they go past 100%
     },
 
@@ -57,11 +57,16 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
+        backgroundStart: "#FEEAC9",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#FD7979",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
+        //backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
+        //backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
+        //buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
+        //buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
+        //textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
