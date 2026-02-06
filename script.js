@@ -144,9 +144,9 @@ loveMeter.addEventListener('input', () => {
     const value = parseInt(loveMeter.value);
     loveValue.textContent = value;
     
-    if (value > 1500) {
+    if (value > 1000) {
         extraLove.classList.remove('hidden');
-        const overflowPercentage = (value - 100) / 5000;
+        const overflowPercentage = (value - 100) / 8000;
         const extraWidth = overflowPercentage * window.innerWidth * 0.8;
         loveMeter.style.width = `calc(100% + ${extraWidth}px)`;
         loveMeter.style.transition = 'width 0.3s';
