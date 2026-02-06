@@ -135,8 +135,8 @@ const loveValue = document.getElementById('loveValue');
 const extraLove = document.getElementById('extraLove');
 
 function setInitialPosition() {
-    loveMeter.value = 10;
-    loveValue.textContent = 10;
+    loveMeter.value = 100;
+    loveValue.textContent = 100;
     loveMeter.style.width = '100%';
 }
 
@@ -144,9 +144,9 @@ loveMeter.addEventListener('input', () => {
     const value = parseInt(loveMeter.value);
     loveValue.textContent = value;
     
-    if (value > 1000) {
+    if (value > 100) {
         extraLove.classList.remove('hidden');
-        const overflowPercentage = (value - 100) / 8000;
+        const overflowPercentage = (value - 100) / 9900;
         const extraWidth = overflowPercentage * window.innerWidth * 0.8;
         loveMeter.style.width = `calc(100% + ${extraWidth}px)`;
         loveMeter.style.transition = 'width 0.3s';
