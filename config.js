@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Sorta heh 🤷‍♂️",                                             // Text for "Yes" button
             noBtn: "Not Really 😢",                                               // Text for "No" button
-            secretAnswer: "NO, I LOVE YOUUUU! ❤️"           // Secret hover message
+            secretAnswer: "NO - I LOVE YOUUUU! ❤️😜"           // Secret hover message
         },
         second: {
             text: "How much do you love me? 🤨",                          // For the love meter
@@ -42,23 +42,23 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW you love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
+        extreme: "WOOOOW you love me this much?? 🥰🚀💝",  // Shows when they go past 5000%
         high: "Keep it going hoe ➡",              // Shows when they go past 1000%
         normal: "Not good enough 😤"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "WOOOO LET'S GOO 🎉💝💖💝💓",
-        message: "Now come get your gifts - fat smooches, cuddles, and chill 😈 See ya on Valentines baby!!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "WOOOO LET'S GOO 💏🎉💃🙌",
+        message: "Now come get your gifts - fat smooches, cuddles, and chill 😈🤤 See ya on Valentines baby!!",
+        emojis: "🥰💘😝🎁😘💖😍💝🤗💕"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#FEEAC9",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#FD7979",        // Gradient end (should complement backgroundStart)
+        backgroundStart: "#FFE4EF",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#F39EB6",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
