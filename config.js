@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "WOOOO LET'S GOO 💏🎉💃🙌",
-        message: "Now come get your gifts - fat smooches, cuddles, and chill 😈🤤 See ya on Valentines baby!!",
+        message: "Now come get your well deserved smooches, cuddles, and chill 😈🤤 See ya on Valentine's baby!!",
         emojis: "🥰💘😝🎁😘💖😍💕🤗"  // These will bounce around
     },
 
