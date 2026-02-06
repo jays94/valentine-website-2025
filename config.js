@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "WOOOO LET'S GOO 💏🎉💃🙌",
         message: "Now come get your well deserved smooches, cuddles, and chill 😈🤤 See ya on Valentine's baby!!",
-        emojis: "🥰💘😝🎁😘💖😍💕🤗"  // These will bounce around
+        emojis: "🥰😝🎁😘😍💕🤗🍫🐻💐😈"  // These will bounce around 🥰💘😝🎁😘💖😍💕🤗
     },
 
     // Color scheme for the website
