@@ -23,19 +23,19 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            yesBtn: "Sorta",                                             // Text for "Yes" button
+            noBtn: "Not Really",                                               // Text for "No" button
+            secretAnswer: "NO, I LOVE YOUUUU! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you love me? 🤨",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Will you be my scrumptious Valentine? 🌹", // The big question!
+            yesBtn: "HELL YEAHH 😝",                                             // Text for "Yes" button
+            noBtn: "Nah I'm good fam 👎🙅‍♀️"                                                 // Text for "No" button
         }
     },
 
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "WOOOO LET'S GOO 🎉💝💖💝💓",
-        message: "Now come get your gift, a fat smooch and chill 😈",
+        message: "Now come get your gifts - a fat smooch, cuddles, and chill 😈 See ya on Valentines my baby!!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -67,10 +67,10 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDuration: "10s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        heartExplosionSize: 2.0         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
